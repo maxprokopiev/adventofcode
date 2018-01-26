@@ -27,6 +27,7 @@ version := "1.0"
 libraryDependencies += "org.typelevel" %% "cats" % "0.9.0"
 libraryDependencies += "org.scalactic" %% "scalactic" % "3.0.4"
 libraryDependencies += "org.scalatest" %% "scalatest" % "3.0.4" % "test"
+libraryDependencies += "io.spray" %%  "spray-json" % "1.3.3"
 
 // Here, `libraryDependencies` is a set of dependencies, and by using `+=`,
 // we're adding the cats dependency to the set of dependencies that sbt will go
@@ -76,4 +77,3 @@ libraryDependencies += "org.scalatest" %% "scalatest" % "3.0.4" % "test"
 
 // To learn more about multi-project builds, head over to the official sbt
 // documentation at http://www.scala-sbt.org/documentation.html
-
